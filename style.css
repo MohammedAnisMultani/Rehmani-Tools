@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+}
+
+.navbar{
+   position: sticky;
+   top: 0px;
+   z-index: 1;
+   background-color: rgb(68,35,59) !important;
+  
+}
+.container-fluid>a{
+    color: rgb(253,142,143) !important;
+}
+.nav-link{
+    color: rgb(199,176,173) !important;
+}
+
+/* ____________________ */
+/* Header */
+.banner{
+    width: 100%;
+    height: 80vh;
+}
+
+/* _____________________________________________________ */
+
+/* body */
+body{
+    background-color: rgb(254,239,225);
+}
+
+/* ---------------- */
+
+.handtool-heading{
+    background-color: rgb(68,35,59);
+    color: rgb(253,142,143);
+    padding: 10px;
+    padding-left: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* handtool-porducts */
+.handtool-porducts{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin: 20px;
+    /* overflow-x: scroll; */
+    
+  
+    
+   
+}
+
+.handtoolcard{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color:  rgb(254,239,225);
+    transition: transform 5ms ease;
+    /* box-shadow: 1px 1px 15px rgb(233, 129, 131); */
+   
+}
+
+.handtoolcard:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 15px rgb(233, 129, 131);
+    transition: box-shadow 0.5s ease;
+   
+}
+.handtoolcard>h6{
+   font-weight: bolder;
+   font-size: large;
+}
+
+.handtoolcard>img{
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* ------------------- */
+
+/* trending-porducts */
+.trending-porducts{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    border: 1px solid black;
+    margin: 20px;
+   
+    
+   
+}
+
+.trendingcard{
+    border: 1px solid black;
+}
+.trendingcard>h4{
+    padding: 10px;
+}
+
+.trendingcard>img{
+    width: 300px;
+}
+
+/* ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ________________________________ */
+/* footer */
+
+.company{
+   background-color: rgb(68,35,59);
+    color: white;
+    padding: 10px;
+}
+
+.company>div>h3{
+    color: rgb(253,142,143);
+}
+
+.slogan{
+color: rgb(199,176,173);
+}
+.contacts{
+    color: rgb(199,176,173);
+}
+.contacts>h4{
+    color: rgb(253,142,143);
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    padding: 10px;
+   text-align: center;
+   padding-top: 25px;
+}
+
+.madeBy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.madeByPara{
+padding: 5px;
+background-color: antiquewhite;
+color: firebrick;
+width: fit-content;
+padding: 10px;
+border-radius:  10px;
+font-size: small;
+font-weight: bolder;
+
+}
+.social-links
+{
+ display: flex;
+ flex-direction: column;  
+ /* border: 1px solid white;   */
+ gap: 50px;
+}
+
+.social-media>h4{
+    color: rgb(253,142,143);
+}
+
+.social-links>a{
+    color: rgb(199,176,173);
+ text-decoration: none;
+}
+
+.footer1Container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 1px solid rgb(199,176,173);
+    align-items: center;
+
+}
+
+.makeInIndia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-top: 1px solid rgb(199,176,173);
+}
+.makeInIndia>img{
+    width: 300px;
+}
+
+.heart{
+    width: 20px;
+}
+
+
+.footer-Logo>img{
+    width: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ______________________________________ */
+/* mobile view */
+
+@media only screen and  (max-width: 600px){
+
+    /* ____________________________ */
+
+    /* Navbar */
+
+  .first-slider{
+        height: auto;
+    }
+
+
+
+
+} 

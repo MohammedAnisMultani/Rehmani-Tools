@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    position: relative;
+}
+
+.navbar{
+   position: sticky;
+   top: 0px;
+   z-index: 1;
+   background-color: rgb(68,35,59) !important;
+  
+}
+.container-fluid>a{
+    color: rgb(253,142,143) !important;
+}
+.nav-link{
+    color: rgb(199,176,173) !important;
+}
+/* ______________________________________________ */
+/* body */
+
+.item{
+    margin-bottom: 20px;
+}
+.allProductImages{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: black;
+}
+.allProductImages>img{
+    width: 200px;
+    border: 1px solid black;
+    
+}
+
+.title{
+    font-size: x-large;
+    padding: 10px;  
+    font-weight: bolder;
+    width: 100%;
+
+}
+.bulletpoints{
+    padding: 10px;  
+    text-align: justify;
+    width: 80%;
+    
+}
+.description{
+    padding: 10px;  
+    text-align: justify;
+    width: 80%;
+    font-weight: 500;
+    
+}
+
+.keywords{
+    padding: 10px;  
+    text-align: justify;
+    width: 80%;
+    font-weight: 500;
+}
+
+.line{
+    border-bottom: 1px dashed black;
+    margin: 0px 20px;
+}
+
+
+
+
+
+
+
+
+/* ________________________________ */
+/* footer */
+
+.company{
+   background-color: rgb(68,35,59);
+    color: white;
+    padding: 10px;
+}
+
+.company>div>h3{
+    color: rgb(253,142,143);
+}
+
+.slogan{
+color: rgb(199,176,173);
+}
+.contacts{
+    color: rgb(199,176,173);
+}
+.contacts>h4{
+    color: rgb(253,142,143);
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    padding: 10px;
+   text-align: center;
+   padding-top: 25px;
+}
+
+.madeBy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.madeByPara{
+padding: 5px;
+background-color: antiquewhite;
+color: firebrick;
+width: fit-content;
+padding: 10px;
+border-radius:  10px;
+font-size: small;
+font-weight: bolder;
+
+}
+.social-links
+{
+ display: flex;
+ flex-direction: column;  
+ /* border: 1px solid white;   */
+ gap: 50px;
+}
+
+.social-media>h4{
+    color: rgb(253,142,143);
+}
+
+.social-links>a{
+    color: rgb(199,176,173);
+ text-decoration: none;
+}
+
+.footer1Container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 1px solid rgb(199,176,173);
+    align-items: center;
+
+}
+
+.makeInIndia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-top: 1px solid rgb(199,176,173);
+}
+.makeInIndia>img{
+    width: 300px;
+}
+
+.heart{
+    width: 20px;
+}
+
+
+.footer-Logo>img{
+    width: 250px;
+
+}

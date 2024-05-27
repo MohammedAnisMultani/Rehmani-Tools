@@ -28,6 +28,7 @@ body{
     height: 80vh;
 }
 
+
 /* _____________________________________________________ */
 
 /* body */
@@ -62,9 +63,12 @@ body{
 .handtoolcard{
     border-radius: 10px;
     padding: 10px;
+    /* padding-right: 10px; */
     margin: 10px;
     background-color:  rgb(254,239,225);
     transition: transform 5ms ease;
+  
+   
     /* box-shadow: 1px 1px 15px rgb(233, 129, 131); */
    
 }
@@ -80,10 +84,13 @@ body{
    font-size: large;
 }
 
+
 .handtoolcard>img{
     width: 300px;
+    /* width: 100%; */
     border-radius: 10px;
     padding-bottom: 10px;
+   
 }
 
 
@@ -116,12 +123,33 @@ body{
 }
 
 /* ------------------- */
+/* best sealing tools */
 
+.bestSealingTools{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin: 20px;
+}
 
+/* ------------------- */
+.newProducts{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin: 20px;
+}
+/* ____________________ */
+/* onlinewebsitelogo */
+.onlinewebsitelogo{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px; */
 
-
-
-
+}
+.onlinewebsitelogo>img{
+    width: 200px;
+}
 
 
 

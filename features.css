@@ -175,50 +175,13 @@ font-weight: bolder;
 
 }
 
+.navbarRes{
+    display: none;
+}
+
 /* ___________________________________ */
 
-/* body */
 
-.title{
-    font-size: small;
-    text-align: justify;
-}
-.bulletpointsHeading{
-    font-size: medium;
-    font-weight: bolder;
-}
-
-.bulletpoints{
-    font-size: small;
-    width: 100%;
-}
-
-.descriptionHeading{
-    font-size: medium;
-    font-weight: bolder;
-}
-.description{
-    font-size: small;
-    width: 100%;
-}
-
-.keywordsHeading{
-    font-size: medium;
-    font-weight: bolder;
-}
-.keywords{
-    font-size: small;
-    width: 100%;
-}
-
-
-.allProductImages{
-    overflow-x: scroll;
-    padding: 10px;
-    gap: 10px;
-}
-
-/* _______________________________ */
 
 
 /* _______________________________ */
@@ -267,7 +230,49 @@ font-weight: bolder;
     font-size: smaller;
 }
  
+/* body */
 
+.title{
+    font-size: medium;
+    font-weight: bolder;
+    text-align: justify;
+}
+.bulletpointsHeading{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.bulletpoints{
+    font-size: small;
+    width: 100%;
+}
+
+.descriptionHeading{
+    font-size: medium;
+    font-weight: bolder;
+}
+.description{
+    font-size: small;
+    width: 100%;
+}
+
+.keywordsHeading{
+    font-size: medium;
+    font-weight: bolder;
+}
+.keywords{
+    font-size: small;
+    width: 100%;
+}
+
+
+.allProductImages{
+    overflow-x: scroll;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* _______________________________ */
 
 
 

@@ -174,3 +174,120 @@ font-weight: bolder;
     width: 250px;
 
 }
+
+/* ___________________________________ */
+
+/* body */
+
+.title{
+    font-size: small;
+    text-align: justify;
+}
+.bulletpointsHeading{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.bulletpoints{
+    font-size: small;
+    width: 100%;
+}
+
+.descriptionHeading{
+    font-size: medium;
+    font-weight: bolder;
+}
+.description{
+    font-size: small;
+    width: 100%;
+}
+
+.keywordsHeading{
+    font-size: medium;
+    font-weight: bolder;
+}
+.keywords{
+    font-size: small;
+    width: 100%;
+}
+
+
+.allProductImages{
+    overflow-x: scroll;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* _______________________________ */
+
+
+/* _______________________________ */
+
+
+
+
+
+    /* Navbar */
+
+/* responsive navbar */
+@media only screen and  (max-width: 600px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+.navbar{
+    display: none;
+}
+
+
+.container-fluid-res{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navbarRes{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(68,35,59) !important;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  
+}
+.responsiveMain{
+    color: rgb(253,142,143) !important;
+}
+.nav-link-res{
+    color: rgb(199,176,173) !important;
+    text-decoration: none;
+    font-size: smaller;
+}
+ 
+
+
+
+
+    /* footer */
+    .onlinewebsitelogo{
+        padding: 15px;
+        overflow-x: scroll;
+    }
+
+    .footer-Logo>img{
+        display: none;
+    }
+    .footer1Container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+
+} 
+
+

@@ -306,9 +306,9 @@ allProductArrays.map((data) => {
         <img src="${data.img4}" alt="">
             </div>
            
-            <div class="bulletpoints"><h4>BulletPoints:</h4>${data.bulletPoints}</div>
-            <div class="description"><h4>Description:</h4>${data.Description}</div>
-            <div class="keywords"><h4>Keywords:</h4> ${data.Keywords}</div>
+            <div class="bulletpoints"><h4 class="bulletpointsHeading">BulletPoints:</h4>${data.bulletPoints}</div>
+            <div class="description"><h4 class="descriptionHeading">Description:</h4>${data.Description}</div>
+            <div class="keywords"><h4 class="keywordsHeading">Keywords:</h4> ${data.Keywords}</div>
             <div class="line"></div></div>
         `);
 });

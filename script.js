@@ -68,7 +68,7 @@ let bestSealingToolsArray = [
     img_src: "images/6inchnoseplier.JPG",
     name: "REHMANI 6-Inch Nose Pliers",
     details: " N-000 Essential Tool for Precision Work ",
-    price: "₹149",
+    price: "₹179",
     grip: "Blue Grip",
     item: "",
     size: "8*",
@@ -78,7 +78,7 @@ let bestSealingToolsArray = [
     img_src: "images/premiumpopatwirecutter.JPG",
     name: "REHMANI Premium Popat Wire Cutter W_456",
     details: "Precision Tool for Clean Cut",
-    price: "149",
+    price: "₹169",
     grip: "Red Grip",
     item: "",
     size: "8*",
@@ -88,7 +88,7 @@ let bestSealingToolsArray = [
     img_src: "images/combinationplier.JPG",
     name: "REHMANI p-757 Combination pliers",
     details: "Quality Combination Pliers for Precision Work",
-    price: "₹199",
+    price: "₹210",
     grip: "Black & Orange Grip",
     item: "",
     size: "8*",
@@ -134,7 +134,7 @@ let newProductArray = [
     name: "G Plass Bengali Jewelry Making G-888 Kit ",
     details:
       "Authentic Craft Supplies for DIY Artisanal Creations",
-    price: "₹199",
+    price: "₹210",
     grip: "No Grip",
     item: "AFT 003",
     size: "8*",
@@ -164,7 +164,7 @@ productArray.map((value) => {
     <p><b>${value.price}</b><p>
     <p>${value.grip}</p>
    
-    <p>Size: ${value.size}</p>
+   
     
 </div>
 `);
@@ -183,7 +183,7 @@ bestSealingToolsArray.map((value) => {
     <p><b>${value.price}</b><p>
     <p>${value.grip}</p>
  
-    <p>Size: ${value.size}</p>
+   
     
 </div>
 `);
@@ -201,7 +201,7 @@ newProductArray.map((value) => {
     <p><b>${value.price}</b><p>
     <p>${value.grip}</p>
     
-    <p>Size: ${value.size}</p>
+    
     
 </div>
 `);

@@ -199,7 +199,11 @@ color: rgb(199,176,173);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+.madeByPara:hover{
+    transform: scale(1.1);
 }
 
 .madeByPara{

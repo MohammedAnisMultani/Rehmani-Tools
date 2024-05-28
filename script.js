@@ -130,12 +130,12 @@ let newProductArray = [
   },
   {
     title: "",
-    img_src: "images/punchingplier.JPG",
-    name: "REHMANI Heavy Duty Punching Pliers",
+    img_src: "images/bangalijewelrymaker3.JPG",
+    name: "G Plass Bengali Jewelry Making G-888 Kit ",
     details:
-      "Professional Leathercraft Tool for Precise Hole Punching and Grommet Setting for jewelry making use",
+      "Authentic Craft Supplies for DIY Artisanal Creations",
     price: "₹199",
-    grip: "Black & Orange Grip",
+    grip: "No Grip",
     item: "AFT 003",
     size: "8*",
   },
@@ -163,7 +163,7 @@ productArray.map((value) => {
     <p><b>${value.details}</b><p>
     <p><b>${value.price}</b><p>
     <p>${value.grip}</p>
-    <p>Item: ${value.item}</p>
+   
     <p>Size: ${value.size}</p>
     
 </div>
@@ -182,7 +182,7 @@ bestSealingToolsArray.map((value) => {
     <p><b>${value.details}</b><p>
     <p><b>${value.price}</b><p>
     <p>${value.grip}</p>
-    <p>Item: ${value.item}</p>
+ 
     <p>Size: ${value.size}</p>
     
 </div>
@@ -200,7 +200,7 @@ newProductArray.map((value) => {
     <p><b>${value.details}</b><p>
     <p><b>${value.price}</b><p>
     <p>${value.grip}</p>
-    <p>Item: ${value.item}</p>
+    
     <p>Size: ${value.size}</p>
     
 </div>
